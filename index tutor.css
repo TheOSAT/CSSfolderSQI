@@ -1,0 +1,90 @@
+/* css reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+    color: white;
+}
+
+nav{
+    color: white;
+    padding: 20px;
+    border-bottom: 1px solid gray;
+}
+
+
+
+.link {
+    margin-left: 600px;
+    margin-top: -60px;
+    padding: 20px;
+}
+.link a{
+    color: white;
+    text-decoration: none;
+    margin-left: 10px;
+    
+}
+
+.link a:hover{
+    color:red;
+    /* text-decoration: underline; */
+    
+}
+
+.buttonHow{
+    background-color: purple;
+    color: white;
+    padding: 10px;
+    border:none;
+    margin-left: 80px;
+
+}
+
+.fa-solid{
+    margin-left: 20px;
+}
+
+main{
+    padding: 50px;
+    text-align: center;
+}
+main h1{
+  
+    font-size: 50px;
+}
+
+main p{
+    font-size: 22px;
+    font-weight: semi-bold;
+    padding-top: 30px;
+}
+
+main p a{
+    color: goldenrod;
+}
+
+main p a:hover{
+    color: white;
+}
+
+.treat{
+    padding-left: 350px;
+    padding-top:60px ;
+}
+.treat p{
+    padding-top: 20px;
+    font-size: 20px;
+   
+}
+
+.Valeria{
+    color: goldenrod;
+}
+
+.treat-links a{
+    font-size: 10px;
+    color: goldenrod;
+    padding: 5px;
+}

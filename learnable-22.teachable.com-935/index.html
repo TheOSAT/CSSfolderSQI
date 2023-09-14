@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link href="https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:32,height:32/https://file-uploads.teachablecdn.com/3dae508ac92e4d27b4f964a15d8fdee1/54df395f1eb8412cb5d619bf9b11f7b8" rel="icon" type="image/png">
+<link href="https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:72,height:72/https://file-uploads.teachablecdn.com/3dae508ac92e4d27b4f964a15d8fdee1/54df395f1eb8412cb5d619bf9b11f7b8" rel="apple-touch-icon" type="image/png">
+<link href="https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:144,height:144/https://file-uploads.teachablecdn.com/3dae508ac92e4d27b4f964a15d8fdee1/54df395f1eb8412cb5d619bf9b11f7b8" rel="apple-touch-icon" type="image/png">
+<link href="https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:320,height:345/https://file-uploads.teachablecdn.com/7e88ba1ed80f4056839b9e25e318aae1/bfe51eb101494a139bf05dc9492e74a0" rel="apple-touch-startup-image" type="image/png">
+<link href="https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:640,height:690/https://file-uploads.teachablecdn.com/7e88ba1ed80f4056839b9e25e318aae1/bfe51eb101494a139bf05dc9492e74a0" rel="apple-touch-startup-image" type="image/png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta charset="UTF-8">
+<meta name="csrf-param" content="authenticity_token">
+<meta name="csrf-token" content="3YXjyHlQi/bB4dx1APacTKgoVva5P9Su/SeaDWetSGin6zqHGpvM7enIIPNT/rj0TiJjIkY9Y1qIHWMdBWIdWQ==">
+<style type="text/css">:root{--brand_primary: #134361;--brand_secondary: #ff3f20;--brand_heading: #134361;--brand_text: #134361;--brand_navbar_text: #FFFFFF;--brand_navbar_fixed_text: #FFFFFF;--brand_homepage_heading: #FFFFFF;--brand_course_heading: #FFFFFF;--brand_video_player_color: #ff3f20;--font_family:Metropolis;} @font-face {
+  font-family: 'Metropolis';
+  font-weight: normal;
+  src: url("//assets.teachablecdn.com/fonts/metropolis/Metropolis-Regular.woff2?v=1") format("woff2"), url("//assets.teachablecdn.com/fonts/metropolis/Metropolis-Regular.woff?v=1") format("woff"), url("//assets.teachablecdn.com/fonts/metropolis/Metropolis-Regular.ttf?v=1") format("ttf"), url("//assets.teachablecdn.com/fonts/metropolis/Metropolis-Regular.otf?v=1") format("otf");
+  font-display: swap; }
+
+@font-face {
+  font-family: 'Metropolis';
+  font-weight: normal;
+  font-style: italic;
+  src: url("//assets.teachablecdn.com/fonts/metropolis/Metropolis-RegularItalic.woff2?v=1") format("woff2"), url("//assets.teachablecdn.com/fonts/metropolis/Metropolis-RegularItalic.woff?v=1") format("woff"), url("//assets.teachablecdn.com/fonts/metropolis/Metropolis-RegularItalic.ttf?v=1") format("ttf"), url("//assets.teachablecdn.com/fonts/metropolis/Metropolis-RegularItalic.otf?v=1") format("otf");
+  font-display: swap; }
+
+@font-face {
+  font-family: 'Metropolis';
+  font-weight: 600;
+  src: url("//assets.teachablecdn.com/fonts/metropolis/Metropolis-SemiBold.woff2?v=1") format("woff2"), url("//assets.teachablecdn.com/fonts/metropolis/Metropolis-SemiBold.woff?v=1") format("woff"), url("//assets.teachablecdn.com/fonts/metropolis/Metropolis-SemiBold.ttf?v=1") format("ttf"), url("//assets.teachablecdn.com/fonts/metropolis/Metropolis-SemiBold.otf?v=1") format("otf");
+  font-display: swap; }
+
+@font-face {
+  font-family: 'Metropolis';
+  font-weight: 600;
+  font-style: italic;
+  src: url("//assets.teachablecdn.com/fonts/metropolis/Metropolis-SemiBoldItalic.woff2?v=1") format("woff2"), url("//assets.teachablecdn.com/fonts/metropolis/Metropolis-SemiBoldItalic.woff?v=1") format("woff"), url("//assets.teachablecdn.com/fonts/metropolis/Metropolis-SemiBoldItalic.ttf?v=1") format("ttf"), url("//assets.teachablecdn.com/fonts/metropolis/Metropolis-SemiBoldItalic.otf?v=1") format("otf");
+  font-display: swap; }
+
+@font-face {
+  font-family: 'Metropolis';
+  font-weight: bold;
+  src: url("//assets.teachablecdn.com/fonts/metropolis/Metropolis-Bold.woff2?v=1") format("woff2"), url("//assets.teachablecdn.com/fonts/metropolis/Metropolis-Bold.woff?v=1") format("woff"), url("//assets.teachablecdn.com/fonts/metropolis/Metropolis-Bold.ttf?v=1") format("ttf"), url("//assets.teachablecdn.com/fonts/metropolis/Metropolis-Bold.otf?v=1") format("otf");
+  font-display: swap; }
+
+@font-face {
+  font-family: 'Metropolis';
+  font-weight: bold;
+  font-style: italic;
+  src: url("//assets.teachablecdn.com/fonts/metropolis/Metropolis-BoldItalic.woff2?v=1") format("woff2"), url("//assets.teachablecdn.com/fonts/metropolis/Metropolis-BoldItalic.woff?v=1") format("woff"), url("//assets.teachablecdn.com/fonts/metropolis/Metropolis-BoldItalic.ttf?v=1") format("ttf"), url("//assets.teachablecdn.com/fonts/metropolis/Metropolis-BoldItalic.otf?v=1") format("otf");
+  font-display: swap; }
+</style>
+<link rel="stylesheet" media="screen" href="https://fedora.teachablecdn.com/assets/pages-4b3e1cf4fed96e6164046e5bdfcb2d55bea5832fc60265fef261c242cb0231c4.css">
+<style></style>
+<title>Homepage | Learnable 22</title>
+<link rel="canonical" href="https://learnable-22.teachable.com/p/home">
+<meta property="og:image" content="https://file-uploads.teachablecdn.com/17e7c6e9b58d4250b63bd824b0815ce1/f7cba2ff17b947e09eb5620853da40a5">
+<meta property="og:title" content="Homepage">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://learnable-22.teachable.com/p/home">
+<meta name="brand_video_player_color" content="#ff3f20">
+<meta name="site_title" content="Learnable 22">
+<script src="js/external-E-v1.js"></script>
+<script src="js/recaptcha-api.js" async defer></script>
+<meta name="asset_host" content="https://fedora.teachablecdn.com">
+<script src="js/packs-pages--8aa174be5c581a509c8c.js"></script>
+<meta id="iris-url" data-iris-url="https://eventable.teachable.cloud">
+<script type="text/javascript">
+  window.heap=window.heap||[],heap.load=function(e,t){window.heap.appid=e,window.heap.config=t=t||{};var r=document.createElement("script");r.type="text/javascript",r.async=!0,r.src="https://cdn.heapanalytics.com/js/heap-"+e+".js";var a=document.getElementsByTagName("script")[0];a.parentNode.insertBefore(r,a);for(var n=function(e){return function(){heap.push([e].concat(Array.prototype.slice.call(arguments,0)))}},p=["addEventProperties","addUserProperties","clearEventProperties","identify","resetIdentity","removeEventProperty","setEventProperties","track","unsetEventProperty"],o=0;o<p.length;o++)heap[p[o]]=n(p[o])},heap.load("318805607");
+  window.heapShouldTrackUser = true;
+</script>
+<script type="text/javascript">
+  var _user_id = ''; // Set to the user's ID, username, or email address, or '' if not yet known.
+  var _session_id = '7de1e6a55fd2b591ad19d7eb0a775faa'; // Set to a unique session ID for the visitor's current browsing session.
+
+  var _sift = window._sift = window._sift || [];
+  _sift.push(['_setAccount', '2e541754ec']);
+  _sift.push(['_setUserId', _user_id]);
+  _sift.push(['_setSessionId', _session_id]);
+  _sift.push(['_trackPageview']);
+
+  (function() {
+    function ls() {
+      var e = document.createElement('script');
+      e.src = 'https://cdn.sift.com/s.js';
+      document.body.appendChild(e);
+    }
+    if (window.attachEvent) {
+      window.attachEvent('onload', ls);
+    } else {
+      window.addEventListener('load', ls, false);
+    }
+  })();
+</script>
+<script>
+  if(typeof ga != 'function') {
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  }
+  ga('create', 'UA-44397410-1', 'auto', {'name': 'fedoraTracker', 'allowLinker': true});
+  ga('fedoraTracker.set', 'anonymizeIp', true);
+  ga('fedoraTracker.require', 'linker');
+  ga('fedoraTracker.linker:autoLink', ['learnable-22.teachable.com',  'sso.teachable.com'], false, true );
+  ga('fedoraTracker.require', 'ecommerce');
+  ga('fedoraTracker.require', 'ec');
+  ga('fedoraTracker.send', 'pageview');
+  ga('create', 'UA-44397410-4', 'auto', {'name': 'teachableTracker', 'allowLinker': true});
+  ga('teachableTracker.set', 'anonymizeIp', true);
+  ga('teachableTracker.require', 'linker');
+  ga('teachableTracker.linker:autoLink', ['learnable-22.teachable.com', 'sso.teachable.com'], false, true );
+  ga('teachableTracker.require', 'ecommerce');
+  ga('teachableTracker.require', 'ec');
+  ga('teachableTracker.send', 'pageview');
+</script>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+</head>
+<body class="revamped_lecture_player">
+<meta http-content="IE=Edge" http-equiv="X-UA-Compatible">
+<meta content="width=device-width,initial-scale=1.0" name="viewport">
+<meta id="fedora-keys" data-commit-sha="d7c75bd1b070c41a64d3ae28c3761988c14c4cba" data-env="production" data-sentry-public-dsn="https://8149a85a83fa4ec69640c43ddd69017d@sentry.io/120346" data-stripe="pk_live_hkgvgSBxG4TAl3zGlXiB1KUX" data-track-all-ahoy="false" data-track-changes-ahoy="false" data-track-clicks-ahoy="false" data-track-sumbits-ahoy="false" data-filepicker="ADNupMnWyR7kCWRvm76Laz" data-iris-url="https://eventable.teachable.cloud"><meta id="fedora-data" data-report-card="{}" data-course-ids="[]" data-completed-lecture-ids="[]" data-school-id="1390552" data-school-launched="true" data-preview="logged_out" data-turn-off-fedora-branding="true" data-plan-supports-whitelabeling="false" data-powered-by-text="Powered by" data-asset-path="//https://fedora.teachablecdn.com/assets/footer/teachable-logomark-white-31d2296978598bacace50e6d48a2e1223c20a9b074af424acdd465676f81560f.svg" data-school-preferences='{"ssl_forced":"true","bnpl_allowed":"false","anonymize_ips":"true","paypal_enabled":"false","autoplay_lectures":"true","comments_threaded":"true","community_enabled":"false","course_blocks_beta":"true","legacy_back_office":"false","themeable_disabled":"false","back_office_enabled":"false","comments_moderation":"false","eu_vat_tax_eligible":"true","charge_exclusive_tax":"true","send_receipts_emails":"true","autocomplete_lectures":"true","class_periods_enabled":"false","tax_inclusive_pricing":"false","authors_can_manage_pbc":"true","css_properties_enabled":"false","preenrollments_enabled":"false","new_text_editor_enabled":"true","require_terms_agreement":"true","send_new_comment_emails":"true","send_drip_content_emails":"true","ssl_forced_from_creation":"true","turn_off_fedora_branding":"true","allow_comment_attachments":"true","authors_can_email_students":"false","authors_can_manage_coupons":"false","custom_email_limit_applied":"false","send_abandoned_cart_emails":"false","teachable_accounts_enabled":"false","teachable_payments_enabled":"true","authors_can_import_students":"false","authors_can_publish_courses":"false","internal_subscriptions_beta":"true","recaptcha_enabled_on_signup":"false","single_page_checkout_enabled":"true","authors_can_set_course_prices":"false","send_lead_confirmation_emails":"true","affiliate_cookie_duration_days":"365","authors_can_issue_certificates":"false","store_student_cards_separately":"true","authors_can_manage_certificates":"false","authors_can_manage_course_pages":"false","disable_js_course_event_tracking":"false","exclusive_vat_on_custom_gateways":"true","send_certificate_issuance_emails":"true","owner_teachable_accounts_required":"true","prevent_payment_plan_cancellation":"true","automatically_add_disqus_attachments":"true","recalc_course_pct_on_lecture_publish":"true","send_confirmation_instructions_emails":"true","send_limited_time_unenrollment_emails":"true","turn_off_myteachable_sign_up_branding":"true"}' data-accessible-features='["bulk_enroll_students","earnings_statements","teachable_payments","page_editor_v2","page_editor_v2_only","integrations","teachable_payments_payout_view","facebook_pixel","multiple_course_pages","proration_upgrade_flow","cross_border_payments","limited_time_enrollments","sales_tax_on_student_checkout","new_device_confirmation","elasticsearch_users","elasticsearch_transactions","reset_progress","fraud_warnings","paypal_through_tp","new_creator_checkout","circle_oauth"]' data-course-data="{}"><meta id="analytics-keys" name="analytics" data-analytics="{}">
+<div class="root" onclick="offMenu(event)">
+
+
+<a id="top" href="learnable-22.teachable.html"></a>
+<style id="ncs">
+  :root {
+    
+    --header_width: 960px;
+  }
+</style>
+<header id="header" class="header Liquid error: internal">
+
+<nav class="navbar is-not-signed-in is-homepage  at-top" id="navbar" role="navigation">
+<div class="navbar__header">
+
+<a class="navbar__header__logolink" href="learnable-22.teachable.html">
+<img src="images/17e7c6e9b58d4250b63bd824b0815ce1-f7cba2ff17b947e09eb5620853da40a5" alt="Learnable 22" srcset="https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=height:120/https://file-uploads.teachablecdn.com/17e7c6e9b58d4250b63bd824b0815ce1/f7cba2ff17b947e09eb5620853da40a5 2x">
+</a>
+
+<div class="navbar__menu">
+<button for="f-toggle" tabindex="0" role="button" id="hamburger" class="hamburger" aria-label="Toggle navigation" onclick="toggleMenu('hamburger-menu')">
+<span></span>
+</button>
+<ul class="navbar__menu__list menu hidden" id="hamburger-menu" role="menu" aria-describedby="hamburger" tabindex="0">
+
+<li>
+<a href="sign_in.html">
+Login
+</a>
+</li>
+<li>
+<a href="sign_up.html">
+Sign Up
+</a>
+</li>
+</ul>
+</div>
+</div>
+</nav>
+</header>
+<main class="view-school page-layout-v2 main">
+<div id="blocks" data-ss-school-id="1390552" class="blocks-page blocks-page-homepage_v2 ">
+
+<style type="text/css">.b-117114822-top { padding-top: 22.400000000000002px; } .b-117114822-bottom { padding-bottom: 22.400000000000002px; } .b-117114822-full_bleed { --full_bleed: false; } .b-117114822-content_width { width: 960px; } .b-117114822-background_color { background-color: #FFFFFF; } .b-117114822-image_border_radius { border-radius: 0px; }</style>
+<div class="course-block block image  " id="block-117114822">
+<style>
+
+  .block__image__image.b-117114822-image_border_radius {
+    border-radius: 0px;
+  }
+
+  @media screen and (min-width: 768px) {
+    .b-117114822-top {
+      padding-top: 40px;
+    }
+    .b-117114822-bottom {
+      padding-bottom: 40px;
+    }
+  }
+</style>
+<section class="bl container block__image b-117114822-background_color b-117114822-top b-117114822-bottom ">
+<div class="block__image__wrapper b-117114822-content_width">
+<img src="images/kH4XUScERsysG3vWdI84" alt data-target="block.data.image_url block.data.alt_text" class="block__image__image b-117114822-image_border_radius">
+</div>
+</section>
+</div>
+
+<style type="text/css">.b-117114823-top { padding-top: 22.400000000000002px; } .b-117114823-bottom { padding-bottom: 22.400000000000002px; } .b-117114823-alignment { text-align: center; } .b-117114823-content_width { max-width: 668px; } .b-117114823-image_overlay { opacity: 0.5; } .b-117114823-background_color { background-color: #000000; } .b-117114823-heading_text_color { color: #FFFFFF; } .b-117114823-button_border_radius { border-radius: 25px; } .b-117114823-subheading_text_color { color: #FFFFFF; }</style>
+<div class="course-block block banner  " id="block-117114823">
+<style>
+    
+      .banner .b-117114823-heading_text_color {
+        color: #FFFFFF
+      }
+    
+
+    
+      .banner .b-117114823-subheading_text_color {
+        color: #FFFFFF
+      }
+    
+
+    .banner__button.b-117114823-button_border_radius {
+      border-radius: 25;
+    }
+
+    @media screen and (min-width: 768px) {
+      .b-117114823-top {
+        padding-top: 40px;
+      }
+      .b-117114823-bottom {
+        padding-bottom: 40px;
+      }
+    }
+    .bl {
+      width: 100%;
+    }
+  </style>
+<section class="banner b-117114823-background_color">
+<img src="images/IWWKlLDtTjq0b4Zet7U6" alt data-target="block.data.image_url " class="b-117114823-image_overlay">
+<div class="bl">
+<div class="banner__inner b-117114823-alignment b-117114823-bottom b-117114823-top b-117114823-content_width">
+<div class="banner__heading-group heading-type-h1">
+<div data-target="block.data.heading_text" class="header b-117114823-heading_text_color rich-text">
+<h1>Learnable 22</h1>
+</div>
+<div data-target="block.data.subheading_text" class="subheader b-117114823-subheading_text_color rich-text">
+<h4>#Everything is Learnable<br class="softbreak">
+</h4>
+</div>
+</div>
+</div>
+</div>
+</section>
+</div>
+
+<style type="text/css">.b-117114824-top { padding-top: 33.6px; } .b-117114824-bottom { padding-bottom: 33.6px; } .b-117114824-text_color { color: #36414D; } .b-117114824-content_width { max-width: 590px; } .b-117114824-background_color { background-color: #F5F5F8; } .b-117114824-heading_text_color { color: #36414D; }</style>
+<div class="course-block block text  " id="block-117114824">
+<style>
+
+  .block__text .b-117114824-text_color {
+    color: #36414D
+  }
+
+
+
+  .block__text .b-117114824-content_width {
+    width: 590px;
+  }
+
+
+
+  .block__text .b-117114824-heading_text_color h1,
+  .block__text .b-117114824-heading_text_color h2,
+  .block__text .b-117114824-heading_text_color h3,
+  .block__text .b-117114824-heading_text_color h4,
+  .block__text .b-117114824-heading_text_color h5,
+  .block__text .b-117114824-heading_text_color h6 {
+    color: #36414D
+  }
+
+
+  .block__text .block__text-wrapper h2{
+    margin-bottom: 2px;
+  }
+
+  .block__text .block__text-wrapper h3{
+    margin-bottom: 5px;
+  }
+
+  .block__text .block__text-wrapper h4{
+    margin-bottom: 9px;
+  }
+
+  .block__text .block__text-wrapper h5{
+    margin-bottom: 11px;
+  }
+
+  .block__text .block__text-wrapper h6{
+    margin-bottom: 14px;
+  }
+
+@media screen and (min-width: 768px) {
+  .b-117114824-top {
+    padding-top: 60px;
+  }
+  .b-117114824-bottom {
+    padding-bottom: 60px;
+  }
+}
+</style>
+<section class="container bl block__text rich-text b-117114824-top b-117114824-bottom b-117114824-background_color">
+<div class="block__text-wrapper b-117114824-content_width b-117114824-heading_text_color b-117114824-text_color" data-target="block.data.body">
+<p><span style="color:rgb(89, 98, 117);">Learnable is the perfect product development internship program brought to you by Genesys.</span></p><p><span style="color:rgb(89, 98, 117);">We primarily educate and groom software developers and designers, preparing them for the industry.</span><br class="softbreak"></p>
+</div>
+</section>
+</div>
+
+<style type="text/css">.b-117114825-top { padding-top: 22.400000000000002px; } .b-117114825-bottom { padding-bottom: 22.400000000000002px; } .b-117114825-card_style { --card_style: grid; } .b-117114825-gutter_width { --gutter-width: 24px; } .b-117114825-content_width { max-width: 960px; } .b-117114825-heading_color { color: #36414D; } .b-117114825-background_color { background-color: #F5F5F8; } .b-117114825-card_border_color { border-color: #000000; } .b-117114825-card_border_width { border-width: 0px; } .b-117114825-card_border_radius { border-radius: 0px; } .b-117114825-card_text_alignment { text-align: center; } .b-117114825-button_border_radius { border-radius: 0px; } .b-117114825-card_background_color { background-color: #FFFFFF; }</style>
+<div class="course-block block featured_products  " id="block-117114825">
+<style>
+  .block__featured-products__heading_text.b-117114825-heading_color {
+    color: #36414D;
+  }
+  .block__featured-products.b-117114825-background_color {
+    background-color: #F5F5F8;
+  }
+  .block__featured-products .b-117114825-card_border_color,
+  .block__featured-products .b-117114825-card_border_width {
+    border: 0px solid #000000;
+  }
+  .block__featured-products .b-117114825-card_text_alignment .featured-product-card__content__title,
+  .block__featured-products .b-117114825-card_text_alignment .course-card__content__subtitle {
+    text-align: center;
+  }
+  .featured-product-card.b-117114825-card_background_color {
+    background-color: #FFFFFF;
+  }
+  .block__featured-products__button .b-117114825-button_border_radius {
+    border-radius: 0px;
+  }
+  @media screen and (min-width: 768px) {
+    .b-117114825-top {
+      padding-top: 40px;
+    }
+    .b-117114825-bottom {
+      padding-bottom: 40px;
+    }
+    
+    .b-117114825-gutter_width .block__columns, .b-117114825-gutter_width .block__columns__fixed {
+        grid-column-gap: 24px;
+    }
+    
+  }
+</style>
+<section class="bl block__featured-products block__featured-products__cards block__columns-per-row--1 b-117114825-top b-117114825-bottom b-117114825-gutter_width b-117114825-background_color">
+<div class="block__featured-products__heading_text b-117114825-heading_color rich-text"><h4><strong>Our Learning Paths</strong></h4><p><br class="softbreak"></p><p>Make sure only to select the learning path that belongs to you.</p><p><br></p><p>ANY DEFAULTERS WILL BE EXPELLED WITH IMMEDIATE EFFECT.<br class="softbreak"></p></div>
+<div class="block__columns__fixed b-117114825-content_width">
+
+<div data-featured-product-type="Course" data-featured-product-id="1939784" class="featured-product-card card-style-grid block__column b-117114825-card_background_color b-117114825-card_border_color b-117114825-card_border_width b-117114825-card_border_radius b-117114825-card_text_alignment">
+<a href="front-end-development.html">
+
+<div class="featured-product-card__image-container">
+<img src="images/dJ40QRynTV2rmIEQZEUv" role="presentation">
+</div>
+<div class="featured-product-card__content">
+<h3 class="featured-product-card__content__title" title="Front End Development">
+Front End Development
+</h3>
+
+<div aria-hidden="true" class="featured-product-card__progressbar hidden">
+<div role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-labelledby="percent-complete-1939784" class="featured-product-card__progressbar-fill"></div>
+</div>
+
+<h4 class="featured-product-card__content__subtitle" title="Introduction to programming, git and version control, and JavaScript. Learn JavaScript design patterns and how to develop web apps using React.">
+Introduction to programming, git and version control, and JavaScript. Learn JavaScript design patterns and how to develop web apps using React.
+</h4>
+<div class="featured-product-card__meta">
+
+
+<div class="featured-product-card__meta__item featured-product-card__author">
+<img src="images/file-Acn3lSt8SzmMXmO5J6Wq" alt="Genesys Tech Hub">
+<p class="featured-product-card__author__name" title="Genesys Tech Hub">
+Genesys Tech Hub
+</p>
+</div>
+
+<div class="featured-product-card__meta__item featured-product-card__progress hidden" aria-hidden="true">
+<span class="featured-product-card__percentage" id="percent-complete-1939784" data-featured-product-id="1939784">
+%
+</span>
+COMPLETE
+</div>
+
+<p data-include-vat-price="4405363" class="featured-product-card__meta__item featured-product-card__price">
+FREE
+</p>
+</div>
+</div>
+</a>
+</div>
+</div>
+</section>
+</div>
+</div>
+</main>
+<style id="footerStyles">
+  :root {
+    --footer_width: 960px;
+  }
+</style>
+<footer class>
+<div class="footer">
+<div class="footer__wrapper">
+<div class="footer__inner">
+<ul class="footer__list">
+<li class="footer__copyright">
+&copy;
+Learnable 22
+2023
+</li>
+<li>
+<a href="https://twitter.com/_learnable" target="_blank">
+Twitter
+</a>
+</li>
+<li>
+<a href="https://www.instagram.com/_learnable/" target="_blank">
+Instagram
+</a>
+</li>
+</ul>
+<ul class="footer__list legal-links">
+<li>
+<a href="terms.html">
+Terms of Use
+</a>
+</li>
+<li>
+<a href="privacy.html">
+Privacy Policy
+</a>
+</li>
+<li>
+<a class="powered-by" href="https://teachable.com/teach-online/?src=school_footer">
+<span class="powered-by-text">Teach Online with</span><img src="images/footer-teachable-logomark-white-31d2296978598bacace50e6d48a2e1223c20a9b074af424acdd465676f81560f.svg" class="powered-by-logo" target="_blank" rel="noopener" alt="Teachable">
+</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</footer></div>
+
+
+<script>
+      if (!Element.prototype.closest) {
+        Element.prototype.closest = function(s) {
+          let el = this;
+          do {
+            if (el.matches(s))
+              return el;
+
+
+            el = el.parentElement || el.parentNode;
+          } while (el !== null && el.nodeType === 1);
+          return null;
+        };
+      }
+      const offMenu = event => {
+        if (event.target.closest('.navbar__menu'))
+          return
+
+
+
+        document.querySelectorAll('.menu').forEach(item => {
+          item.classList.add('hidden')
+          item.setAttribute('aria-hidden', 'true')
+        })
+      }
+      const toggleMenu = id => {
+  const el = document.getElementById(id)
+  if (el.classList.contains('hidden')) {
+    document
+      .querySelectorAll('.inner-menu')
+      .forEach(item => {
+        item.classList.add('hidden')
+        item.setAttribute('aria-hidden', 'true')
+      })
+    el.classList.remove('hidden')
+    el.setAttribute('aria-hidden', 'false')
+  } else {
+    el.classList.add('hidden')
+    el.setAttribute('aria-hidden', 'true')
+  }
+  !el.classList.contains('hidden') && el.focus()
+}
+
+
+// toggle open class for v2 preview bar dropdown menu
+      const v2Dropdown = document.getElementsByClassName('v2-dropdown')[0]
+      const v2DropdownTrigger = document.querySelector('.v2-dropdown .menu-trigger')
+
+// if the preview bar dropdown exists, add event listener to toggle preview menu
+      if (!! v2Dropdown) {
+        v2DropdownTrigger.addEventListener('click', () => {
+          v2Dropdown.classList.toggle('open')
+        })
+      }
+
+      const domBody = document.body
+      const usingMouse = 'using-mouse'
+      domBody.addEventListener('mousedown', () => {
+        domBody.classList.add(usingMouse)
+      })
+      domBody.addEventListener('keydown', () => {
+        domBody.classList.remove(usingMouse)
+      })
+
+      const headerEl = document.querySelector('#navbar')
+      const topHook = document.querySelector('#top')
+      if ("IntersectionObserver" in window) {
+        const observer = new IntersectionObserver(entries => {
+          if (entries[0].boundingClientRect.y < 0) {
+            headerEl.classList.remove('at-top')
+          } else {
+            headerEl.classList.add('at-top')
+          }
+        }, {threshold: 1});
+        observer.observe(topHook)
+      }
+    </script>
+<script>(function(){var js = "window['__CF$cv$params']={r:'7fcea10aafbd680b',t:'MTY5MzA3OTY5Mi4zNzkwMDA='};_cpo=document.createElement('script');_cpo.nonce='',_cpo.src='/cdn-cgi/challenge-platform/scripts/invisible.js',document.getElementsByTagName('head')[0].appendChild(_cpo);";var _0xh = document.createElement('iframe');_0xh.height = 1;_0xh.width = 1;_0xh.style.position = 'absolute';_0xh.style.top = 0;_0xh.style.left = 0;_0xh.style.border = 'none';_0xh.style.visibility = 'hidden';document.body.appendChild(_0xh);function handler() {var _0xi = _0xh.contentDocument || _0xh.contentWindow.document;if (_0xi) {var _0xj = _0xi.createElement('script');_0xj.innerHTML = js;_0xi.getElementsByTagName('head')[0].appendChild(_0xj);}}if (document.readyState !== 'loading') {handler();} else if (window.addEventListener) {document.addEventListener('DOMContentLoaded', handler);} else {var prev = document.onreadystatechange || function () {};document.onreadystatechange = function (e) {prev(e);if (document.readyState !== 'loading') {document.onreadystatechange = prev;handler();}};}})();</script></body>
+</html>

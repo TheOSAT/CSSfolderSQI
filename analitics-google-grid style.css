@@ -1,0 +1,227 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: 1fr;
+    background-color: teal;
+    width: 100%;
+}
+.grid-item{
+    background-color: white;
+    width: 100%;
+    height: 60px;
+    padding: 20px 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+.grid-item2{
+    background-color: orange;
+    width: 100%;
+    height: 40px;
+    padding: 10px;
+    align-items: center;
+}
+p {
+    color: white;
+}
+.grid-item3{
+    background-color: white;
+    width: 100%;
+    height: 350px;
+}
+.text {
+    padding: 50px;
+    width: 50%;
+}
+.text h1 {
+    padding-bottom: 40px;
+}
+.image {
+    justify-content: left;
+    width: 50%;
+}
+.contain {
+    display: flex;
+    height: 350px;
+}
+.grid-item4 {
+    width: 100%;
+    display: grid;
+    /* gap: 10px; */
+    /* grid-template-columns: 1fr 1fr 1fr 1fr; */
+    background-color: rgb(66,133,244);
+    grid-template-rows: 650px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.gridcontainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 90px 40px 30px 80px;
+    gap: 15px;
+    width: 100%;
+}
+.item4a {
+    background-color: white;
+    width: 270px;
+    height: 250px;
+    padding: 20px;
+}
+.item4a img {
+    width: 50px;
+    padding-bottom: 10px;
+}
+.item4a h2 {
+    padding-bottom: 40px;
+}
+.grid-item5{
+    background-color: white;
+    width: 100%;
+    height: 1000px;
+    padding: 100px 50px;
+    grid-template-columns: 1fr;
+    grid-template-rows: 50px 50px 50px;
+
+}
+.gridcon5 {
+    display: grid;
+    grid-template-columns: 1fr;
+    background-color: white;
+    width: 100%;
+    height: 50px;
+    box-shadow: 1px 1px 2px grey;
+    display: flex;
+    padding-bottom: 250px;
+
+}
+html {
+    scroll-behavior: smooth;
+}
+.gridcon6{
+    display: grid;
+    display: inline-block;
+    /* gap: 10px; */
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    background-color: white;
+    grid-template-rows: 650px;
+    width: 100%;
+    height: 300px;
+}
+.footmerin {
+    display: flex;
+    gap: 20px;
+}
+.foot1{
+    grid-template-rows: 400px;
+    background-color: white;
+    width: 270px;
+    height: 150px;
+    padding: 15px;
+    align-content: center;
+    box-shadow: 1px 1px 2px grey;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+
+@media screen and (max-width: 475px) {
+    .grid-container{
+        display: grid;
+        grid-template-columns: 1fr;
+        background-color: teal;
+        width: 100%;
+    }
+    .grid-item{
+        background-color: white;
+        width: 100%;
+        height: 50px;
+        padding: 10px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-content: space-between;
+        align-items: center;
+        display: flex;
+    }
+    .grid-item2{
+        background-color: orange;
+        width: 100%;
+        height: 30px;
+        padding: 10px;
+        /* align-items: center; */
+    }
+    .itemchild{
+        padding: 20px 70px;
+    }
+    .itemchilda {
+        display: none;
+    }
+    p {
+        color: white;
+    }
+    .grid-item3{
+        /* border: 2px solid red; */
+        background-color: white;
+        width: 100%;
+        height: 300px;
+        /* padding: 10px; */
+    }
+    .text {
+        padding: 70px;
+        
+    }
+    .text h1 {
+        padding-bottom: 30px;
+    }
+    .image {
+        display: none;
+    
+    }
+    .contain {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .grid-item4 {
+        width: 100%;
+        height: 1900px;
+        display: inline-block;
+        background-color: rgb(66,133,244);
+        /* grid-template-rows: 650px;
+        display: flex;
+        flex-wrap: wrap; */
+    }
+    .gridcontainer{
+        display: inline-block;
+        /* grid-template-columns: 1fr;
+        padding: 90px 40px 30px 80px;
+        gap: 15px; */
+        width: 100%;
+
+    }
+    .item4a {
+        background-color: white;
+        width: 270px;
+        height: 250px;
+        padding: 20px;
+        margin-bottom: 30px;
+    }
+    .item4a img {
+        width: 50px;
+        padding-bottom: 10px;
+    }
+    .item4a h2 {
+        padding-bottom: 40px;
+    }
+}
+
+
+.grid-item :first-child{ 
+    /* background-color: white; width: 100px; height: 100px; */
+    /* border: solid red; */
+    /* grid-column: 1/5; */
+}

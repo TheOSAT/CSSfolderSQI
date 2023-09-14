@@ -1,0 +1,62 @@
+/* h1{
+    color: red;
+}
+
+.firstDiv {
+    color: indianred;
+    background-color: black;
+    font-size: 30px;
+}
+
+.secondDiv {
+    color: green;
+}
+
+div {
+    color: purple !important;
+}
+
+#para1 {
+    background-color: yellow;
+    text-decoration: ;
+} */
+body{
+    background-color: beige;
+}
+.b1{
+    height: 300px; 
+    width: 250px;
+    display: inline-block;
+    background-color: white;
+    padding: 10px;
+    margin-left: 80px;
+
+}
+.b1 img{
+    width: 50vh;
+}
+
+.b2{
+    height: 300px; 
+    width: 250px;
+    display: inline-block;
+    background-color: white;
+    padding: 10px;
+    margin-left: 10px;
+}
+.b2 img{
+    width: 52vh;
+}
+
+
+.b3{
+    height: 300px; 
+    width: 250px;
+    display: inline-block;
+    background-color: white;
+    padding: 10px;
+    margin-left: 10px;
+}
+.b3 img{
+    width: 52vh;
+}

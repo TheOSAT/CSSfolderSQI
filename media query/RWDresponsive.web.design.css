@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.box {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+}
+.flex-container{
+    display: flex;
+    width: 100%;
+    border: 2px solid sienna;
+    padding: 3px;
+    gap: 5px;
+    flex-wrap: wrap;
+}
+.flexitem {
+    width: 200px;
+    height: 200px;
+    border: 1px solid springgreen;
+}
+/* Small screen */
+@media screen and (max-width: 475px){
+    .box {
+        
+        background-color: yellow;
+        width: 100%;
+    }
+    .flexitem{ 
+        display: block;
+        transform: translateX(20px);
+
+    }
+}

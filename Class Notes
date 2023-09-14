@@ -1,0 +1,42 @@
+Read on: Box model in css and Selectors.
+png=potable network graphics
+CSS [selector] Specificity
+<marquee behavior
+font-size
+font-weight
+font-family (serif - small strokes, sans-serif- clean, monospace-robotic or mechanical, cursive-handwriting, fantasy- artwork)
+word-spacing
+letter-spacing: 5px
+text-decorator
+Assignment: creat a clone of thoughtbot
+
+opacity is 0-1
+
+CSS UNITS: px, em(refrences the parent...),rem(picks from the root i.e 16px),%
+Text-transformation(uppercase, lowercase), text-indent, text-decoration
+Display Property, display-block, display of inline block(side by side, takes padding also)
+
+clone "printivo"
+css Positioning (fixed, static(default), relative, sticky, and absolute)
+clone edu.sqi.ng
+30th Aug. 2023
+flexbox
+flex-direction, column,column reverse, row, row reverse
+<justify-content>
+</justify-content>
+align-items
+flex-wrap
+make a clone of edozzier.com and analytics.google.com using grid
+
+1.download git-scn.com/download
+2.logon to github.com
+3.logon to netify.com
+
+Terms: break point, 
+
+media query break point
+
+Git is Version Control System (VCS)
+
+
+
